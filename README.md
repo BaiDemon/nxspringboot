@@ -257,6 +257,14 @@ public class Ch09Controller {
 ### TODO
 
 - 建立個人的 github 帳號，fork 本專案 and pull request（PR 前需先 git rebase）
+git branch issue1
+git checkout issue1
+vi README.md
+git add README.md 
+git commit README.md -m "rebase test"
+git branch master
+git rebase issue1
+
 - 建立本機 postgresql、mysql database
 - 建立 config 目錄，設定 Multiple Data Sources
 - save or update 需同時寫入 database，且需要事務處理機制
